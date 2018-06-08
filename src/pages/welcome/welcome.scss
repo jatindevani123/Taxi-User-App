@@ -1,0 +1,43 @@
+page-welcome {
+
+    .title-text{
+        text-align: center;
+        font-weight: 600;
+        font-size: 20px;
+    
+    }
+
+    .title-name{
+        text-align: center;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .icon-button-text{
+        margin-left: 20px;
+    }
+    .button-mobile-number{
+        margin: 16px ;
+        width: 92%;
+        background-color: #11a788;
+        color: white;
+        text-transform: none;
+        padding: 25px;  
+    }
+
+    .button-google-plus{
+        margin: 16px ;
+        width: 92%;
+        background-color: white;
+        color: black;
+        text-transform: none;
+        padding: 25px;
+    }
+    .button-facebook{
+        margin: 16px ;
+        width: 92%;
+        background-color: #4061a8;
+        color: black;
+        text-transform: none;
+        padding: 25px;
+    }
+}

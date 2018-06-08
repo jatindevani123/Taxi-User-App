@@ -1,0 +1,30 @@
+<ion-header >
+  <ion-navbar >
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content  >
+    <div #map id="map" >
+
+      
+    </div> 
+    <ion-card class="transparent-card">
+
+        <!-- <p>My Place</p>
+        One Saved -->
+        <ion-item (click)="gotoLocation()">
+          <ion-avatar item-start>
+            <img src="assets/imgs/up_arrow.png" class="img-arrow">
+          </ion-avatar>
+          My Place
+          <p>One Saved </p> 
+        </ion-item>
+
+   
+    </ion-card>
+   
+</ion-content>

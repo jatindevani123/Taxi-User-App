@@ -1,0 +1,58 @@
+<!--
+  Generated template for the SuggestionPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header >
+  <ion-navbar >
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Suggestions</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="bg-color-contnet">
+
+    <p class="heading-text">Information error or send suggestions </p>
+
+  <p class="heading-description-text">We would like to receive your opinion or comments about the way in which we can better your experience.</p>
+
+  <p class="heading-text-radio">Tipo de comentarios </p>
+
+  <ion-list radio-group [(ngModel)]="group_radio" mode='md' no-lines>
+
+     
+    
+      <ion-item>
+        <ion-label>Suggestions</ion-label>
+        <ion-radio value="suggestions"></ion-radio>
+      </ion-item>
+    
+      <ion-item>
+        <ion-label>Questions</ion-label>
+        <ion-radio value="questions"></ion-radio>
+      </ion-item>
+    
+      <ion-item>
+        <ion-label>Bugf report</ion-label>
+        <ion-radio value="bugfreport"></ion-radio>
+      </ion-item>
+    
+      <ion-item>
+        <ion-label>Features request</ion-label>
+        <ion-radio value="comments"></ion-radio>
+      </ion-item>
+    
+     
+    </ion-list>
+
+    <ion-item>
+        <ion-label  floating>Comments</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+
+      <button ion-button full class="button-send" (click)="fnConfirmRide()">SEND  </button>
+
+</ion-content>

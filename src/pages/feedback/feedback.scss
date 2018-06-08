@@ -1,0 +1,60 @@
+page-feedback {
+
+    ul {
+        padding: 0px;
+      
+        &.rating li {
+          padding: 5px 10px !important;
+          background: none;
+          color: #757575;
+        
+      
+          ion-icon {
+            font-size: 50px;
+            
+          }
+        }
+      }
+
+      .bg-color-contnet{
+
+        background-color: #ffffff;
+       
+      }
+
+      .title-thanks{
+
+        font-size: 20px;
+        color: #454545;
+        font-weight: 600;
+        text-align: center;
+       
+
+      }
+
+      .description-text{
+        color:#959595;
+        font-size: 16px;
+        font-weight: 600;
+        text-align: center;
+      }
+
+      .text-rate-icon{
+          color: #303030;
+          font-size: 18px;
+          font-weight: 600;
+          text-align: center;
+      }
+
+      .button-send{
+        margin: 32px 16px 16px 16px ;
+        width: 92%;
+        background-color: #2173a5;
+        color: white;
+        text-transform: none;
+        padding: 25px;
+        
+    }
+
+
+}

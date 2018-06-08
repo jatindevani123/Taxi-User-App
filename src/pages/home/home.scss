@@ -1,0 +1,45 @@
+
+
+    .ios, .md {
+ 
+        page-home {
+     
+          .scroll {
+            height: 100%
+          }
+     
+          #map {
+            width: 100%;
+            height: 100%;
+          }
+
+          ion-card.transparent-card.card.card-ios{
+            margin-top: -90px;
+          }
+
+          .img-arrow{
+            height: 16px;
+    width: 16px;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+          }
+
+          .comapny-profile-img{
+            // margin-top: -75px; 
+            // height: 120px;
+            // margin-left: 20px;
+            // border-radius: 50%;
+            // width: 120px;
+            // border: 1px solid #DDD;
+              }
+              .transparent-card{
+                background-color: transparent;
+            }
+     
+        }
+
+       
+    
+
+}

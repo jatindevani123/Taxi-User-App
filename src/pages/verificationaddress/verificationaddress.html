@@ -1,0 +1,61 @@
+<!--
+  Generated template for the VerificationaddressPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+
+<ion-header >
+  <ion-navbar color="dark">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Verification Address</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content class="bg-color-contnet" >
+
+  <p class="description-text">Please, review if the street name and number are correct,you can change it if you want</p>
+
+  <ion-item>
+      <ion-label floating>Street name</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+
+
+  <ion-item>
+      <ion-label  floating>Number</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+
+
+
+  <ion-item>
+      <ion-label  floating>Details:department,office,etc</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+
+
+    <ion-label>
+        <ion-checkbox [(ngModel)]='terms'></ion-checkbox>
+         Save in my place
+      
+     
+    </ion-label>
+
+    <button ion-button full class="button-confirm-rid" (click)="fnConfirmRide()"> CONFIRM RIDE  </button>
+
+   
+  <!-- <ion-input type="text" placeolder="street name" class="input-bottom-border">
+
+  </ion-input> -->
+  <!-- <ion-input type="text" placeolder="Number">
+
+    </ion-input>
+    <ion-input type="text" placeolder="Details:department,office,etc">
+
+      </ion-input> -->
+</ion-content>
